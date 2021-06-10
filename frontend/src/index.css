@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  
+  .container {
+    max-width: 1432px;
+    margin: 0 auto;
+  }
+  a,
+  a:hover {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+  }
+  .h2 {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    position: relative;
+    text-transform: capitalize;
+  }
+  h5 {
+    font-size: 14px;
+    line-height: 1;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+  }
+  /* header css starts here */
+  header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 8%);
+    background-color: #000;
+    padding: 32px 0;
+  }
+  header .logo {
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  header .logo img {
+    width: 100%;
+  }
+  header nav li a {
+    font-size: 0.83em;
+    font-weight: 700;
+    color: #fff;
+    margin-left: 10px;
+  }
+  header .search-icon input {
+    display: none;
+  }
+  header .search-icon {
+    display: flex;
+    align-items: center;
+  }
+  header .search-icon i {
+    color: #fff;
+    margin-left: 20px;
+    font-size: 20px;
+  }
+
+  .todo-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+  }
